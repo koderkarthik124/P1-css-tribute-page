@@ -1,0 +1,108 @@
+body,ul{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: lightcoral;
+    display: flex;
+    justify-self: space-between;
+    
+    
+}
+
+.navbar li {
+    display: block;
+    color: black;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 14px 16px;
+    transition: background-color 0.3s;  
+      
+}
+
+.navbar li:hover{
+    background-color: #d9acd155;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+header{
+    text-align: center;
+    background-color: chartreuse;
+    display: block;
+    padding: 1px; 
+}
+
+.navbar{
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.para{
+margin-top: 30px;
+margin-right: 20px;
+margin-left: 30px;
+}
+
+.photo1{
+    border:1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+figcaption{
+    margin-left:16px;
+    font-size: 2em;
+    font-weight: bold;
+    color:black;
+    padding: 5px 0;
+}
+
+.childhood-work-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+}
+
+.childhood{
+    /* background-color: aqua; */
+    grid-column: 1/2;
+    border: 5px solid black;
+    
+}
+
+.work{
+/* background-color: burlywood; */
+grid-column: 2/3;
+ border: 5px solid black;
+}
+
+.miscellenous{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+h2,h3{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    width: 90%;
+}
